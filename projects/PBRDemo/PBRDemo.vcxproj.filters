@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{d5b2ac9c-e4e6-4017-aed4-6e6a6a58a7d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{b51bf70a-f84f-4dd8-b7dc-538f289c03b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lights">
+      <UniqueIdentifier>{0c9090cf-16d9-4627-91b3-eeb4c56f9a05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lights">
+      <UniqueIdentifier>{d9286ada-b9b4-4e7f-b4a7-68a54755e010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{f996f817-63c1-4734-81ee-ed54d3e65cfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{ea7497da-1e0b-4d2b-95fe-3fed195ba599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Materials">
+      <UniqueIdentifier>{52278097-ded7-4a33-9a0f-b266b74a4207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Materials">
+      <UniqueIdentifier>{461db8c2-9e76-42c8-9f13-9faff7f01ef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{92d5b786-22a0-4db9-a757-6c3f0ad1b4fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{15fa78a2-40d7-4442-9186-b15c54ddee32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{0e580c9e-40b5-49c8-bad8-0d79fc18e62a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{8754af44-5de9-439b-90b3-dba8a01111bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\App">
+      <UniqueIdentifier>{49230ffa-c347-4e3b-9be5-cf6a87901cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\App">
+      <UniqueIdentifier>{62985187-3073-4de5-a291-fb823da19736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{7fc80acc-947e-4e8a-ad9f-849414333eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{33a028eb-4e11-4b1f-976b-27acaddea821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{a90576af-dcb7-43f7-97fd-c3f8552c3d95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Math\PBRMath.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Math\Bounds.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Math\Matrix2x2.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Math\Matrix4x4.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Math\Ray.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Math\Quat.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Math\Matrix3x3.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Math\Vector2.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Math\Transform.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Math\Vector4.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Math\Vector3.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Lights\DirectionalLight.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Lights\Light.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Lights\PointLight.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Lights\SpotLight.cpp">
+      <Filter>Source Files\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\SceneObject.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Spectrum.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Resources.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Shape.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Geometry.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Utils\Image.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ext\lodepng\lodepng.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Camera.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Perspective.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\App\OpenGLApplication.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\App\PBRApp.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Scene.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Sphere.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Graphics\RenderInterface.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Graphics\Shader.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Graphics\Renderer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Mesh.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Utils\Utils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Texture.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Core\Skybox.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Materials\Material.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Materials\PBRMaterial.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ext\imgui\imgui.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GUI\GUI.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ext\imgui\imgui_draw.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Utils\ParameterMap.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Utils\LoadXML.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ext\pugixml\pugixml.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\PBR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\PBRMath.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\Bounds.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\Hash.hpp">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\Matrix2x2.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\Matrix3x3.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\Matrix4x4.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\Quat.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\Ray.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\Vector2.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\Vector4.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\Vector3.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\Transform.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Lights\DirectionalLight.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Lights\Light.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Lights\PointLight.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Lights\SpotLight.h">
+      <Filter>Header Files\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\SceneObject.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Spectrum.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Resources.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Shape.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Geometry.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Materials\Material.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Graphics\Shader.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Utils\Image.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Camera.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Perspective.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Scene.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\App\OpenGLApplication.h">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\App\PBRApp.h">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Sphere.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Graphics\RenderInterface.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Graphics\Renderer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Mesh.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Utils\Utils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Texture.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Skybox.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Materials\PBRMaterial.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GUI\GUI.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ext\imgui\imconfig.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ext\imgui\imgui.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ext\imgui\imgui_internal.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ext\imgui\stb_rect_pack.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ext\imgui\stb_textedit.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ext\imgui\stb_truetype.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Utils\ParameterMap.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Utils\LoadXML.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
